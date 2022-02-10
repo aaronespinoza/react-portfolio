@@ -1,20 +1,20 @@
 import React from 'react';
 import './App.css';
-import navBar from './components/navbar';
+import Navigationbar from './components/navbar';
 
 
 import 'bootstrap/dist/css/bootstrap.css';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import homePage from './pages/home';
+import HomePage from './pages/home';
 
 
 function App() {
   return (
     <Router>
-     <navBar/>
+     <Navigationbar/>
         <Route exact path="/">
-            <homePage/>
+            <HomePage/>
         </Route>
     </Router>
   );

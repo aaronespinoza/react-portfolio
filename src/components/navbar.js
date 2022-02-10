@@ -7,7 +7,7 @@ import {
 }from "react-bootstrap"
 
 
-function navBar(){
+function Navigationbar(){
 return (
   <Navbar bg="dark" variant="dark">
     <Container>
@@ -26,4 +26,4 @@ return (
 
 }
 
-export default navBar;
+export default Navigationbar;

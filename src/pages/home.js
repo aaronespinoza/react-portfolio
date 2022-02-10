@@ -4,7 +4,7 @@ import Portfolio from "../components/portfolio";
 import AboutMe from "../components/aboutMe";
 import Contact from "../components/contact";
 
-function homePage() {
+function HomePage() {
 
   return (
     <>
@@ -17,4 +17,4 @@ function homePage() {
   );
 }
 
-export default homePage;
+export default HomePage;
